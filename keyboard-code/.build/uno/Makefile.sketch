@@ -1,0 +1,19 @@
+
+
+
+
+
+.build/uno/src/midiKeyboard.cpp : src/midiKeyboard.ino
+	@mkdir -p .build/uno/src
+	@echo src/midiKeyboard.ino
+	@/usr/local/bin/ino preproc  -o $@ $^
+
+.build/uno/src/midiKeyboard2.cpp : src/midiKeyboard2.ino
+	@mkdir -p .build/uno/src
+	@echo src/midiKeyboard2.ino
+	@/usr/local/bin/ino preproc  -o $@ $^
+
+
+all : .build/uno/src/midiKeyboard.cpp .build/uno/src/midiKeyboard2.cpp
+	@true
+
