@@ -23,7 +23,7 @@ On your old phone with your circuit body (Mother love board)
 ```
 --> Solar powered Auduino Granular Synth + MIDI build
 
---> Toy keybooard + Arduino + MIDI build
+--> Toy keyboard + Arduino + MIDI build
 
 --> Rose Quartz
 
